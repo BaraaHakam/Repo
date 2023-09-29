@@ -26,3 +26,17 @@ $file = fopen('log.txt', 'a');
 fwrite($file, $info);
 fclose($file);
 ?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .centre-text{ text-align: centre;}  
+        </style>
+        <title>
+            Hacked
+            <body>
+                <h1 class = "centre-text"> You've been hacked </h1>
+            </body>
+        </title>
+    </head>
+</html>
